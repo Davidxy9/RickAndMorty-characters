@@ -1,0 +1,54 @@
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    min-height: 100vh;
+    background-image: url("https://images8.alphacoders.com/107/thumb-1920-1075646.jpg");
+    background-attachment: fixed;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+h1{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background: #1d1e20;
+    color: white;
+    padding: 20px;
+    margin: 0;
+}
+
+main{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 800px;
+    margin: 20px auto;
+    background: rgba(255, 255, 255, 0.25);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+main > div{
+    flex: 1 1 200px;
+    margin: 30px 30px 30px 30px;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background: #1d1e20;
+    max-width: 300px;
+}
+
+main > img{
+    max-width: 100%;
+    display: block;
+}
+
+strong{
+    display: flex;
+    justify-content: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: whitesmoke;
+}
